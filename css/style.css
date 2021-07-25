@@ -150,9 +150,5 @@ body {
 .control-buttons .delete-all.disabled {
     cursor: no-drop;
     background-color: #e91e625b;
-}
-
-.control-buttons .finish-all.disabled {
-    cursor: no-drop;
-    background-color: #03a8f45b;
+    pointer-events: none;
 }
